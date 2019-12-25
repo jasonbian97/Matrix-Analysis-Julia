@@ -7,7 +7,7 @@
 - projected gradient descent for LS problem. [nnlsgd.jl](./GradientDescent/nnlsgd.jl)
 - Perform steepest descent to solve the least squares problem. [lssd.jl](./GradientDescent/lssd.jl)
 
-Projection:
+[Projection](./Projection):
 
 - Projects `x` onto the orthogonal complement of the null space of the input matrix `A`. [orthcompnull.jl](./projection/orthcompnull.jl)
 
@@ -39,17 +39,17 @@ Projection:
 
 [Applications](./Applications/):
 
-Procrustes. [procrustes.jl](./Applications/procrustes.jl)
+- Procrustes. [procrustes.jl](./Applications/procrustes.jl)
 
-Convolution. [convolution.jl](./Applications/convolution.jl)
+- Convolution. [convolution.jl](./Applications/convolution.jl)
 
-compress_image. [compress_image.jl](./Applications/compress_image.jl)
+- compress_image. [compress_image.jl](./Applications/compress_image.jl)
 
-Multi-Demension-Scaling. [dist2locs.jl](./Applications/dist2locs.jl)
+- Multi-Demension-Scaling. [dist2locs.jl](./Applications/dist2locs.jl)
 
-Power Iteration. [outlying_zeros.jl](./CompanionMatrix/outlying_zeros.jl)
+- Power Iteration. [outlying_zeros.jl](./CompanionMatrix/outlying_zeros.jl)
 
-Classify Images: Classify `test` signals using `K`- dimensional subspaces found from `train`ing data via SVD. [classify_image.jl](./Applications/classify_image.jl)
+- Classify Images: Classify `test` signals using `K`- dimensional subspaces found from `train`ing data via SVD. [classify_image.jl](./Applications/classify_image.jl)
 
 
 
